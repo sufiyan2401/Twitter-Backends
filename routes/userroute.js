@@ -104,7 +104,7 @@ route.put("/:id/edit", async (req, res) => {
   const { userName, email, password, fullname, contactnum, bio, profilepic } = req.body;
 
   // Create an object with the updated values
-  const updatedUser = {
+  const updatedUer = {
     userName,
     email,
     password,
